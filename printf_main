@@ -1,0 +1,41 @@
+int main()
+{
+	printf("d: %d\n", printf("%d\n", 12));
+	ft_printf("d: %d\n", ft_printf("%d\n", 12));
+
+	printf("dStr: %d\n", printf("%d\n", "12"));
+	ft_printf("dStr: %d\n", ft_printf("%d\n", "12"));
+
+	printf("i: %d\n", printf("%i\n", 12));
+	ft_printf("i: %d\n", ft_printf("%i\n", 12));
+
+	printf("iStr: %d\n", printf("%i\n", "12"));
+	ft_printf("iStr: %d\n", ft_printf("%i\n", "12"));
+
+	printf("s: %d\n", printf("%s\n", "selam"));
+	ft_printf("s: %d\n", ft_printf("%s\n", "selam"));
+
+	printf("uNegative: %d\n", printf("%u\n", -12));
+	ft_printf("uNegative: %d\n", ft_printf("%u\n", -12));
+
+	printf("u: %d\n", printf("%u\n", 12));
+	ft_printf("u: %d\n", ft_printf("%u\n", 12));
+
+	printf("p: %d\n", printf("%p\n", 122342));
+	ft_printf("p: %d\n", ft_printf("%p\n", 1223423));
+	
+	printf("pStr: %d\n", printf("%p\n", "12345"));
+	ft_printf("pStr: %d\n", ft_printf("%p\n", "12345"));
+
+	printf("x: %d\n", printf("%x\n", 12));
+	ft_printf("x: %d\n", ft_printf("%x\n", 12));
+
+	printf("xStr: %d\n", printf("%x\n", 12));
+	ft_printf("xStr: %d\n", ft_printf("%x\n", "12"));
+
+	printf("X: %d\n", printf("%X\n", 12));
+	ft_printf("X: %d\n", ft_printf("%X\n", 12));
+
+	printf("XStr: %d\n", printf("%X\n", "12"));
+	ft_printf("XStr: %d\n", ft_printf("%X\n", "12"));
+}
